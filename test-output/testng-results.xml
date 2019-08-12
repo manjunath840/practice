@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[usernameA passA]]>
+    </line>
+    <line>
+      <![CDATA[usernameB passB]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43" started-at="2019-08-12T09:49:19Z" finished-at="2019-08-12T09:49:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43" started-at="2019-08-12T09:49:19Z" finished-at="2019-08-12T09:49:19Z">
+      <class name="forTestClass.DataproviderDemo">
+        <test-method status="PASS" signature="createUser(java.lang.Object, java.lang.Object)[pri:0, instance:forTestClass.DataproviderDemo@4678c730]" name="createUser" duration-ms="9" started-at="2019-08-12T09:49:19Z" data-provider="getdata" finished-at="2019-08-12T09:49:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usernameA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[usernameA passA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="createUser(java.lang.Object, java.lang.Object)[pri:0, instance:forTestClass.DataproviderDemo@4678c730]" name="createUser" duration-ms="2" started-at="2019-08-12T09:49:19Z" data-provider="getdata" finished-at="2019-08-12T09:49:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usernameB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[usernameB passB]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- forTestClass.DataproviderDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
